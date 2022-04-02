@@ -13,6 +13,8 @@ function onClick(){
         out.innerHTML = "BOTH VALUES NEED TO BE AN INTEGER GREATER THAN 0"
         return;
     }
+    a = parseInt(a)
+    b = parseInt(b)
     out.innerHTML = "GCD IS: "+gcd(a,b);
 
 }

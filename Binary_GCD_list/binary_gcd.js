@@ -12,6 +12,7 @@ function onClick(){
             out.innerHTML = "VALUE NEEDS TO BE AN INTEGER GREATER THAN 0: "+a;
             return;
         }
+        a = parseInt(a);
         res = gcd(a,res);
     }
     out.innerHTML = "GCD IS: "+res;
